@@ -1,0 +1,10 @@
+{
+  "name": "fleet-code-agent",
+  "version": "1.0.0",
+  "description": "Standalone git-agent for code building. Build-test-commit loops.",
+  "type": "module",
+  "bin": { "fleet-code-agent": "./src/index.js" },
+  "scripts": { "build": "tsc", "start": "node src/index.js", "test": "vitest run" },
+  "dependencies": { "commander": "^12.0.0" },
+  "devDependencies": { "@types/node": "^20.0.0", "typescript": "^5.0.0", "tsx": "^4.0.0", "vitest": "^3.0.0" }
+}
